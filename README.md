@@ -32,11 +32,11 @@ The input files are the .umi.distribution files resulting from ESAT
 ./source_ORdecon_step2.sh
 ``` 
 
-### Step 3: Correct the count files
+### Step 3: Correct the count files 
+
+#To correct only for the identical UMIs use the cutoff value 1
 
 ```
 Rscript source_ORdecon_step3.R clean_OR_sampleNNN.umi.distributions.txt 0.75 
 ```
-
-
 
